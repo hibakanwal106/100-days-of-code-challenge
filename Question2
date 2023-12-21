@@ -1,0 +1,9 @@
+function countVowels(str) {
+let count = 0;
+for (let char of str) {
+if (["a", "e", "i", "o", "u"].includes(char.toLowerCase())) {
+count++; } }
+return count; }
+const sentence = "My Name is Hiba Kanwal.";
+const vowelCount = countVowels(sentence);
+console.log("The string "${sentence}" has ${vowelCount} vowels.`);
