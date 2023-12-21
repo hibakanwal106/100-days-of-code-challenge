@@ -1,0 +1,12 @@
+function factorialUsingDoWhile(num) {
+  let factorial = 1;
+  let i = 1;
+  do {
+    factorial *= i; 
+    i++;          
+  } while (i <= num); 
+
+  return factorial;
+}
+const result = factorialUsingDoWhile(4);
+console.log('The Factorial is : ' + result);
