@@ -1,0 +1,7 @@
+const num = [2, 5, 9, 2, 8];
+
+const pointer = 2;
+
+Onst index = num.indexOf(pointer);
+
+console.log('The index of 1st occurence of 2 is: + index);
