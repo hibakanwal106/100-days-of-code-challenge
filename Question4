@@ -1,0 +1,7 @@
+function Palindrome(txt) {
+txt = txt.toLowerCase().replace(/[^a-z0-9]/, "");
+return txt === txt.split("").reverse().join(""); }
+console.log(Palindrome("racecar"));
+console.log(Palindrome("hello"));
+console.log(Palindrome("Noon"));
+console.log(Palindrome("A man, a plan, a canal: Panama"));
