@@ -1,0 +1,11 @@
+
+function ReString(str) {
+let reversed = "";
+for (let i = str.length 1; i >= 0; i--) {
+reversed += str[i];
+}
+return reversed;
+}
+const myString = "MY NAME IS HIBA KANWAL.";
+const reversedString = ReString(myString);
+console.log(reversedString);
