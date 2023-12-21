@@ -1,0 +1,21 @@
+function sortAscending(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] > arr[j]) {
+        const temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp; } } }
+  return arr; }
+function sortDescending(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] < arr[j]) { 
+        const temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp; }  }  }
+  return arr;}
+const numbers = [5, 2, 4, 1, 9];
+const sortedAscending = sortAscending(numbers);
+console.log(sortedAscending); 
+const sortedDescending = sortDescending(numbers);
+console.log(sortedDescending); 
