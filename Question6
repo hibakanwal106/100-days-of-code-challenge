@@ -1,17 +1,8 @@
-function removeDup(arr) {
-  const uniqueArr = [];
-  const seenValues = {}; 
+const num = [2, 5, 9, 2, 8];
 
-  for (const item of arr) {
-    if (!seenValues[item]) { 
-      uniqueArr.push(item);
-      seenValues[item] = true; 
-    }
-  }
+const pointer = 2;
 
-  return uniqueArr;
-}
+Onst index = num.indexOf(pointer);
 
-const originalArray = [1, 4, 2, 3, 4, 1, 5];
-const uniqueArray = removeDup(originalArray);
-console.log(uniqueArray); 
+console.log('The index of 1st occurence of 2 is: + index);
+
