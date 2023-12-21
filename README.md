@@ -1,4 +1,4 @@
 # 100-days-of-code-challenge
 Tracking daily code progress and projects for 100 days to refine coding skills.
 
-ASSIGNMENT Questions - WD-II (2-4) F 2-4	
+Question 8 : Sort the array in ascending and descending without built-in methods.
