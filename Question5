@@ -1,7 +1,12 @@
-const num = [2, 5, 9, 2, 8];
-
-const pointer = 2;
-
-Onst index = num.indexOf(pointer);
-
-console.log('The index of 1st occurence of 2 is: + index);
+function sumPositiveNum(arr) {
+  let sum = 0
+  for (const num of arr) {
+    if (num > 0) {
+      sum += num; 
+    }
+  }
+  return sum; 
+}
+const num = [1, -4, 2, 5, -3];
+const result = sumPositiveNum(num);
+console.log(result); 
